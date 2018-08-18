@@ -14,4 +14,14 @@ def main():
 	spy_data = getStockData('SPY',alpha_vantage_key,True)
 	print(json.loads(spy_data))
 
+	'''
+	plan:
+	calc standard dev of % difference between changes in top stock, others 
+
+	calc what % increase closest company needs
+	calc high point within x trading days left for each 
+	
+	
+	'''
+
 main()
